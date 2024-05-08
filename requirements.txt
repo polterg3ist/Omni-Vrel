@@ -1,0 +1,4 @@
+django==5.0
+rest_framework==3.14.0
+pytz==2023.3.post1
+sqlparse== 0.4.4

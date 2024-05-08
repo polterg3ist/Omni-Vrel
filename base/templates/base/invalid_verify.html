@@ -1,0 +1,20 @@
+{% extends 'main.html' %}
+
+
+{% block content %}
+  <main class="delete-item layout">
+    <div class="container">
+      <div class="layout__box layout__reset">
+        <div class="layout__boxHeader layout__boxHeader_email_conf">
+          <p>Email Confirmation Error</p>
+        </div>
+        <div class="layout__body layout__body__email_conf">
+            <div class="form__group">
+              <p>Link is incorrect. Please log in again</p>
+              <a href="{% url 'login' %}">Log In</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </main>
+{% endblock content %}
